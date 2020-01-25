@@ -6,7 +6,7 @@ unlike `jupyter/r-notebook`, it doesn't use conda.
 # prepare
 run the command bellow to create data container.
 ```
-docker run --name rjupyter_dc -v /usr/local/lib/R dr666m1/rjupyter
+docker run -it --name rjupyter_dc -v /usr/local/lib/R dr666m1/rjupyter
 ```
 
 if you use wsl, you have to add the command below to your .bashrc
