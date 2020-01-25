@@ -1,5 +1,7 @@
 # about
-jupyterlab with R. not using conda.
+jupyterlab with R.
+
+unlike `jupyter/r-notebook`, it doesn't use conda.
 
 # prepare
 run the command bellow to create data container.
