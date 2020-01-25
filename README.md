@@ -23,6 +23,6 @@ if you use wsl, replace `$(pwd)` to `$(mypwd)`.
 remember that you can't sync directories not in c-drive.
 
 ```
-alias rjupyter='docker run -it -p 8888:8888 --volumes-from rjupyter_dc -v $(pwd):/sync -v ${PYTHONPATH%%:*}:/library dr666m1/rjupyter'
+alias rjupyter='docker run -it -p 8888:8888 --volumes-from rjupyter_dc -v $(pwd):/sync dr666m1/rjupyter'
 ```
 
