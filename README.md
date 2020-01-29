@@ -18,7 +18,7 @@ function mypwd() {
 ```
 
 # usage
-it is useful to setup the alias below.
+setup the alias below.
 
 if you use wsl, replace `$(pwd)` to `$(mypwd)`.
 
@@ -28,3 +28,6 @@ remember that you can't sync directories not in c-drive.
 alias rjupyter='docker run -it -p 8888:8888 --volumes-from rjupyter_dc -v $(pwd):/sync dr666m1/rjupyter'
 ```
 
+you might see a warning message `Could not determine jupyterlab build status without nodejs`.
+
+but it seems harmless unless you use extensions.
