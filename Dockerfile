@@ -5,7 +5,7 @@ COPY ./entrypoint.sh /
 COPY ./init.R /
 
 RUN apt update && \
-    apt install -y python3-pip libcurl4-openssl-dev  libxml2-dev libssl-dev git && \
+    apt install -y python3-pip libcurl4-openssl-dev  libxml2-dev libssl-dev git nodejs npm && \
     pip3 install jupyterlab && \
     Rscript /init.R && \
     chmod +x /entrypoint.sh
